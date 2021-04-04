@@ -1,1 +1,5 @@
-
+This project aims at building a CNN model to classify images of handwritten characters (0-9, a-z, A-z).
+These two approaches are followed to build a efficient model:
+1) Build the model from scratch and train it to classify images.
+2) Using Transfer Learning use one of the pre-trained model (VGG16Net) to classify images.
+The model achieves a accuracy rate of 76% using the VGGNet.
